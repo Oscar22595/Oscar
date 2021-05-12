@@ -305,19 +305,7 @@ def log_fb():
             print ''
             raw_input('\033[1;92m Press enter to try again ')
             log_fb()
-        else:
-            print ''
-            print ' Id/Pass may be wrong'
-            print ''
-            raw_input(' \033[1;92mPress enter to try again ')
-            log_fb()
-        else:
-            print ''
-            print ' Id/Pass may be wrong'
-            print ''
-            raw_input(' \033[1;92mPress enter to try again ')
-            log_fb()
-
+       
           except:
 
         print ''
