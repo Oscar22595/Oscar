@@ -567,7 +567,7 @@ def auto_crack():
 
     print logo
 
-  print '\033[1;90m------ Choice pass cracking ------\033[1;94m'
+    print '\033[1;90m------ Choice pass cracking ------\033[1;94m'
 
     print 47 * '-'
 
