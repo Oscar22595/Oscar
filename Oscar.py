@@ -525,7 +525,7 @@ def crack():
 
     print logo
 
-    print '\033[1;90m ---------CLONING MENU--------- \033[1;94m'
+    print '\033[1;90m------ Choice pass cracking ------\033[1;94m'
 
     print 47 * '-'
 
@@ -567,7 +567,7 @@ def auto_crack():
 
     print logo
 
-     print '\033[1;90m ---------CLONNING MENU--------- \033[1;94m'
+  print '\033[1;90m------ Choice pass cracking ------\033[1;94m'
 
     print 47 * '-'
 
@@ -622,8 +622,7 @@ def a_s():
 
             print logo
 
-             print '\033[1;90m---------CLONNING MENU---------\033[1;94m'
-
+            print '\033[1;90m------ Choice pass cracking ------\033[1;94m'
             print ' \033[1;92mCloning from: ' + z
 
         except (KeyError, IOError):
@@ -678,7 +677,7 @@ def a_s():
 
             print logo
 
-            print '\033[1;90m--------- FOLLOWERS CLONNING --------'
+           print '\033[1;90m-------- Choice followers cracking --------'
 
              print ' \033[1;92mCloning from: ' + z
         except (KeyError, IOError):
