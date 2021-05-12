@@ -294,17 +294,22 @@ def log_fb():
 
         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pwd).text
         q = json.loads(data)
-            if 'loc' in q:
+        if 'loc' in q:
             ts = open('access_token.txt', 'w')
             ts.write(q['loc'])
             ts.close()
             menu()
-
         elif 'www.facebook.com' in q['error']:
             print ''
             print ' User must verify account before login'
             print ''
             raw_input('\033[1;92m Press enter to try again ')
+            log_fb()
+        else:
+            print ''
+            print ' Id/Pass may be wrong'
+            print ''
+            raw_input(' \033[1;92mPress enter to try again ')
             log_fb()
         else:
             print ''
