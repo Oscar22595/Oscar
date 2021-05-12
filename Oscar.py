@@ -725,24 +725,22 @@ def a_s():
 
     elif a_s == '0':
 
-        menu()
-
+           menu()
     else:
+        print ''
+        print '\tChoose valid option' + w
+        print ''
+        a_s()
+    print ' Total ids: ' + str(len(id))
+    time.sleep(0.5)
+    print ' \033[1;93mCrack Running '
+    time.sleep(0.5)
+    print ''
+    print 47 * '-'
+    
+    print '\t\033[1;92m   THE JOKER 007 UNITY BRAND\033[1;94m'
 
-          print ''
-
-          print '\tChoose valid option' + w
-
-          a_s()
-
-      print ' Total ids: ' + str(len(id))
-      time.sleep(0.5)
-      print ' \033[1;92mCrack Running\033[1;94m '
-      time.sleep(0.5)
-      print 47 * '-'
-      print '\t\033[1;92m   THE JOKER 007 UNITY BRAND\033[1;94m'
-
-      print 47 * '-'
+    print 47 * '-'
 
     
 
