@@ -476,9 +476,7 @@ def menu():
 
     
 
-    try:
-
-        r = requests.get('https://graph.facebook.com/me?access_token=' + token)
+    
 
         q = json.loads(r.text)
 
