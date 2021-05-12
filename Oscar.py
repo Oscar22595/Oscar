@@ -643,7 +643,7 @@ def a_s():
 
         
 
-     elif a_s == '2':
+    elif a_s == '2':
 
         os.system('clear')
 
@@ -695,7 +695,7 @@ def a_s():
             nm = na.rsplit(' ')[0]
             id.append(uid + '|' + nm)
 
-     elif a_s == '3':
+    elif a_s == '3':
 
         os.system('clear')
 
@@ -723,7 +723,7 @@ def a_s():
 	    raw_input('Press Enter To Back. ')
 	    crack()
 
-     elif a_s == '0':
+    elif a_s == '0':
 
         menu()
 
