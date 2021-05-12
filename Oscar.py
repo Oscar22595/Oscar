@@ -283,7 +283,8 @@ def menu():
         time.sleep(1)
         log_menu()
 
-        try:
+
+  try:
         r = requests.get('https://graph.facebook.com/me?access_token=' + token)
         q = json.loads(r.text)
         z = q['name']
