@@ -402,7 +402,7 @@ def a_s():
         pass4 = raw_input(' \033[1;92m[4]Password: ')
         idt = raw_input(' \033[1;93m[â˜…]Enter id: ')
        
-        try:
+    try:
 
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
             q = json.loads(r.text)
