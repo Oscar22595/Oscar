@@ -816,9 +816,9 @@ def a_s():
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
-
-        except:
-            pass
+  
+         except:
+             pass
         
     p = ThreadPool(30)
     p.map(main, id)
