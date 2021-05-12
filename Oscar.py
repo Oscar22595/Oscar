@@ -306,34 +306,24 @@ def log_fb():
             raw_input('\033[1;92m Press enter to try again ')
             log_fb()
        
-          except:
-
+    except:
         print ''
-
         print 'Exiting tool'
-
         os.system('exit')
 
+
+
 def log_token():
-
     os.system('clear')
-
     print logo
-
-    print '\033[1;93mLogin with token\033[1;91m'
-
-    print 47 * '-'
-
-    tok = raw_input(' \033[1;92mPaste token here: \033[1;91m')
-
-    print 47 * '-'
-
+    print ''
+    print '\033[1;93mLogin with token'
+    print ''
+    tok = raw_input(' \033[1;92mPaste token here: ')
+    print ''
     t_s = open('access_token.txt', 'w')
-
     t_s.write(tok)
-
     t_s.close()
-
     menu()
 
 def log_cookie():
@@ -348,9 +338,7 @@ def log_cookie():
 
     print ''
 
-    
-
-    try:
+       try:
 
         cookie = raw_input(' Paste cookies here: ')
 
