@@ -525,7 +525,7 @@ def crack():
 
     print logo
 
-    print '\033[1;90m---------CLONING MENU ---------\033[1;94m'
+    print '\033[1;90m ---------CLONING MENU--------- \033[1;94m'
 
     print 47 * '-'
 
@@ -567,7 +567,7 @@ def auto_crack():
 
     print logo
 
-     print '\033[1;90m--------- CLONNING MENU ---------\033[1;94m'
+     print '\033[1;90m ---------CLONNING MENU--------- \033[1;94m'
 
     print 47 * '-'
 
@@ -622,7 +622,7 @@ def a_s():
 
             print logo
 
-             print '\033[1;90m--------- CLONNING MENU  ---------\033[1;94m'
+             print '\033[1;90m---------CLONNING MENU---------\033[1;94m'
 
             print ' \033[1;92mCloning from: ' + z
 
