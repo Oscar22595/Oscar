@@ -643,7 +643,7 @@ def a_s():
 
         
 
-    elif a_s == '2':
+     elif a_s == '2':
 
         os.system('clear')
 
