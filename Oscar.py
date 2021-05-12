@@ -711,7 +711,7 @@ def a_s():
 
         pass3 = raw_input(' \033[1;92m[3]Password: ')
 
-	    pass4 = raw_input(' \033[1;92m[4]Password: ')
+	pass4 = raw_input(' \033[1;92m[4]Password: ')
 
         try:
 
@@ -727,7 +727,7 @@ def a_s():
 
         menu()
 
-     else:
+    else:
 
           print ''
 
