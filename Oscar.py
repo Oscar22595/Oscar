@@ -679,7 +679,7 @@ def a_s():
 
             print '\033[1;90m-------- Choice followers cracking --------'
 
-             print ' \033[1;92mCloning from: ' + z
+            print ' \033[1;92mCloning from: ' + z
         except (KeyError, IOError):
             print ''
             print '\t Invalid user \x1b[0;97m'
