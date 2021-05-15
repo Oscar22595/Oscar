@@ -104,7 +104,7 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;91m  _____________________________________________     
+\033[1;91m  ____________________________________________________     
 
 \033[1;92m         OOOO                                
 \033[1;92m        O    O   SSSS    CCC   AA   RRRR    
@@ -114,7 +114,7 @@ print  """
 \033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
 
                                      OSCAR ALEX   V=0.2
-\033[1;91m  _____________________________________________ 
+\033[1;91m  ____________________________________________________ 
 
 \033[1;97m  Author   :     \033[1;92mOSCAR ALEX
 
@@ -124,70 +124,169 @@ print  """
 
 \033[1;97m  WHATSAPP :     \033[1;92m03451378304
 
-\033[1;91m  _____________________________________________ 
+\033[1;91m  _____________________________________________________ 
 """
 jalan("\033[1;91m       _____________________________________________")     
 
-jalan("\033[1;96m                      THE JOKER 007 UNITY")                   
+jalan("\033[1;95m                      THE JOKER 007 UNITY")                   
 jalan("\033[1;91m       _____________________________________________")
  
 jalan("\033[1;91m WELCOME TO OSCAR ALEX WORLD ")	
 	
 def reg():
+
     os.system('clear')
+
     print logo
+
     print ''
-    print '\033[1;31;1mTake The Approval For Login'
+
+    print '\033[1;31;1mTake The Free Approval For Login'
+
     print ''
+
     time.sleep(1)
+
     
+
     try:
+
         to = open('/sdcard/.hst.txt', 'r').read()
+
     except (KeyError, IOError):
+
         reg2()
 
     r = requests.get('https://raw.githubusercontent.com/Oscar22595/Oscar/main/server.txt').text
+
     if to in r:
+
         os.system('cd ..... && npm install')
+
         os.system('fuser -k 5000/tcp &')
+
         os.system('#')
+
         os.system('cd ..... && node index.js &')
+
         time.sleep(2)
-        log_menu()
+
+        ip()
+
     else:
+
         os.system('clear')
+
         print logo
+
         print '\tApproved Failed'
+
         print ' \033[1;92mYour Id Is Not Approved Already '
+
         print ' \033[1;92mCopy the id and send to admin'
+
         print ' \033[1;92mYour id: ' + to
+
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923451378304')
+
+        os.system('xdg-open https://wa.me/03451378304')
+
         reg()
 
-
 def reg2():
+
     os.system('clear')
+
     print logo
+
     print '\tApproval not detected'
-    print ' \033[1;92mCopy And Press Enter Then Select Whatsapp to continue'
+
+    print ' \033[1;92mCopy and press enter , then select whatsapp to continue'
+
     id = uuid.uuid4().hex[:50]
+
     print ' Your id: ' + id
+
     print ''
+
     raw_input(' Press enter to go to Whatsapp ')
-    os.system('xdg-open https://wa.me/+923451378304')
+
+    os.system('xdg-open https://wa.me/03451378304')
+
     sav = open('/sdcard/.hst.txt', 'w')
+
     sav.write(id)
+
     sav.close()
+
     raw_input('\033[1;92m Press enter to check Approval ')
+
     reg()
 
+def ip():
+
+    os.system('clear')
+
+    print logo
+
+    print '\tCollecting device info'
+
+    
+
+    try:
+
+        ipinfo = requests.get('http://ip-api.com/json/')
+
+        z = json.loads(ipinfo.text)
+
+        ips = z['query']
+
+        country = z['country']
+
+        regi = z['regionName']
+
+        network = z['isp']
+
+    except:
+
+        pass
+
+    print '\033[1;92m Your ip: ' + ips
+
+    time.sleep(2)
+
+    print '\033[1;92m Your country: ' + country
+
+    time.sleep(2)
+
+    print '\033[1;92m Your region: ' + regi
+
+    time.sleep(2)
+
+    print ' \033[1;92mYour network: ' + network
+
+    time.sleep(2)
+
+    print ' Loading ...'
+
+    time.sleep(2)
+
+    log_menu()
+
+	
 
 def log_menu():
+
+    
+
     try:
+
         t_check = open('access_token.txt', 'r')
+
         menu()
+
     except (KeyError, IOError):
+
         os.system('clear')
         print logo
         print '\x1b[1;93m ~~~~ Login menu ~~~~\x1b[1;91m'
@@ -1246,6 +1345,4 @@ def n_s():
 
 if __name__ == '__main__':
     reg() 
-
-
-
+	
