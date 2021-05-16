@@ -116,22 +116,22 @@ print  """
                                      OSCAR ALEX   V=0.2
 \033[1;91m  ____________________________________________________ 
 
-\033[1;97m  Author   :     \033[1;92mOSCAR ALEX
+\033[1;95m  Author   :     \033[1;93mOSCAR ALEX
 
-\033[1;97m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
+\033[1;95m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
 
-\033[1;97m  UNITY    :     \033[1;92mJOKER 007 UNITY 
+\033[1;95m  UNITY    :     \033[1;92mJOKER 007 UNITY 
 
-\033[1;97m  WHATSAPP :     \033[1;92m03451378304
+\033[1;95m  WHATSAPP :     \033[1;92m03451378304
 
 \033[1;91m  _____________________________________________________ 
 """
 jalan("\033[1;91m       _____________________________________________")     
 
-jalan("\033[1;95m                      THE JOKER 007 UNITY")                   
+jalan("\033[1;95m                    THE JOKER 007 UNITY")                   
 jalan("\033[1;91m       _____________________________________________")
  
-jalan("\033[1;91m WELCOME TO OSCAR ALEX WORLD ")	
+jalan("\033[1;93m WELCOME TO OSCAR ALEX WORLD ")	
 	
 def reg():
 
@@ -299,7 +299,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Jutt\xe2\x9e\xa4 ')
+    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -448,7 +448,7 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -518,7 +518,7 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -832,7 +832,7 @@ def c_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -935,7 +935,7 @@ def c_s():
     print ' \x1b[1;97m~~~ Crack Running ~~~\x1b[1;91m'
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mJutt King Of Fcebook\x1b[1;91m'
+    print '\t\x1b[1;94mJOKER 007 UNITY\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -1093,7 +1093,7 @@ def n_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -1200,7 +1200,7 @@ def n_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mJutt King Of Facebook\x1b[1;91m'
+    print '\t\x1b[1;94mJOKER 007 UNITY\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
