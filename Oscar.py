@@ -65,7 +65,7 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;91m  _____________________________________________     
+\033[1;91m  ___________________________________________    
 
 \033[1;92m         OOOO                                
 \033[1;92m        O    O   SSSS    CCC   AA   RRRR    
@@ -74,18 +74,18 @@ logo = """
 \033[1;92m        O    O       S  C     A  A  R  R      
 \033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
 
-                                     OSCAR ALEX   V=0.2
-\033[1;91m  _____________________________________________ 
+                                 OSCAR ALEX   V=0.2
+\033[1;91m  ___________________________________________
 
-\033[1;97m  Author   :     \033[1;92mOSCAR ALEX
+\033[1;95m  Author   :     \033[1;93mOSCAR ALEX
 
-\033[1;97m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
+\033[1;95m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
 
-\033[1;97m  UNITY    :     \033[1;92mJOKER 007 UNITY 
+\033[1;95m  UNITY    :     \033[1;92mJOKER 007 UNITY 
 
-\033[1;97m  WHATSAPP :     \033[1;92m03451378304
+\033[1;95m  WHATSAPP :     \033[1;92m03451378304
 
-\033[1;91m  _____________________________________________ 
+\033[1;91m  ___________________________________________
 """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -469,7 +469,7 @@ def menu_s():
 
 
 def crack():
-    global toket
+    global to ketch
     try:
         toket = open('login.txt', 'r').read()
     except (KeyError, IOError):
