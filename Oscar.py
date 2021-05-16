@@ -469,7 +469,7 @@ def menu_s():
 
 
 def crack():
-    global to ketch
+    global toket
     try:
         toket = open('login.txt', 'r').read()
     except (KeyError, IOError):
