@@ -104,7 +104,7 @@ print  """
 \033[1;92m        O    O   SSSS   C     AAAA  RRRR     
 \033[1;92m        O    O       S  C     A  A  R  R      
 \033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
-                       OSCAR ALEX \033[1;93mV=2
+                      \033[1;93OSCAR ALEX V=2
 \033[1;91m  ______________________________________________
 \033[1;95m  Author   :     \033[1;93mOSCAR ALEX
 \033[1;95m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
