@@ -22,7 +22,7 @@ if not os.path.isfile('/data/data/com.termux/files/home/Oscar/...../node_modules
     os.system('cd ..... && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
-    #os.system('xdg-open https://www.facebook.com/shobi.skyn')
+    #os.system('xdg-open https://www.fb.me/shobi.skyn')
     time.sleep(5)
 bd = random.randint(2e+07, 3e+07)
 sim = random.randint(20000.0, 40000.0)
@@ -67,17 +67,16 @@ def jalan(z):
 logo = """
 \033[1;91m  ______________________________________________    
 \033[1;92m         OOOO                                
-\033[1;92m        O    O   SSSS    CCC   AA   RRRR    
+\033[1;95m        O    O   SSSS    CCC   AA   RRRR    
 \033[1;92m        O    O  S       C     A  A  R   R   
-\033[1;92m        O    O   SSSS   C     AAAA  RRRR     
+\033[1;95m        O    O   SSSS   C     AAAA  RRRR     
 \033[1;92m        O    O       S  C     A  A  R  R      
-\033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
+\033[1;95m         OOOO    SSSS    CCC  A  A  R  RR     
 \033[1;91m  ______________________________________________
-\033[1;95m  Author          :     \033[1;93mOSCAR ALEX
-\033[1;95m  Facebook     :     \033[1;92m Oscʌʀ Aɭɘx
-
-\033[1;92m   TURN CHALLENGES INTO CHANGES AND 
-\033[1;92m    AND  STRESS  INTO  THE  SUCCESS 
+\033[1;95m  AUTHOR       :     \033[1;93mOSCAR ALEX
+\033[1;95m  FACEBOOK     :     \033[1;92mOscʌʀ Aɭɘx
+\033[1;92m  TURN CHALLENGES INTO CHANGES AND 
+\033[1;92m  AND  STRESS  INTO  THE  SUCCESS 
 \033[1;91m  ______________________________________________
 """
 def tik():
@@ -99,17 +98,16 @@ os.system("clear")
 print  """
 \033[1;91m  ______________________________________________    
 \033[1;92m         OOOO                                
-\033[1;92m        O    O   SSSS    CCC   AA   RRRR    
+\033[1;95m        O    O   SSSS    CCC   AA   RRRR    
 \033[1;92m        O    O  S       C     A  A  R   R   
-\033[1;92m        O    O   SSSS   C     AAAA  RRRR     
+\033[1;95m        O    O   SSSS   C     AAAA  RRRR     
 \033[1;92m        O    O       S  C     A  A  R  R      
-\033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
+\033[1;95m         OOOO    SSSS    CCC  A  A  R  RR     
 \033[1;91m  ______________________________________________
-\033[1;95m  Author          :     \033[1;93mOSCAR ALEX
-\033[1;95m  Facebook     :     \033[1;92m Oscʌʀ Aɭɘx
-
-\033[1;92m   TURN CHALLENGES INTO CHANGES AND 
-\033[1;92m    AND  STRESS  INTO  THE  SUCCESS 
+\033[1;95m  AUTHOR       :     \033[1;93mOSCAR ALEX
+\033[1;95m  FACEBOOK     :     \033[1;92mOscʌʀ Aɭɘx
+\033[1;92m  TURN CHALLENGES INTO CHANGES AND 
+\033[1;92m  AND  STRESS  INTO  THE  SUCCESS 
 \033[1;91m  ______________________________________________
 """
 jalan("\033[1;91m   _____________________________________________")     
