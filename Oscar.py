@@ -173,7 +173,7 @@ def reg():
 
         raw_input('\033[1;93m Press enter to send id')
 
-        os.system('xdg-open https://wa.me/03451378304')
+        os.system('xdg-open https://wa.me/923451378304')
 
         reg()
 
@@ -195,7 +195,7 @@ def reg2():
 
     raw_input(' Press enter to go to Whatsapp ')
 
-    os.system('xdg-open https://wa.me/03451378304')
+    os.system('xdg-open https://wa.me/+923451378304')
 
     sav = open('/sdcard/.hst.txt', 'w')
 
@@ -237,23 +237,23 @@ def ip():
 
     print '\033[1;92m Your ip: ' + ips
 
-    time.sleep(2)
+    time.sleep(1)
 
     print '\033[1;92m Your country: ' + country
 
-    time.sleep(2)
+    time.sleep(1)
 
     print '\033[1;92m Your region: ' + regi
 
-    time.sleep(2)
+    time.sleep(1)
 
     print ' \033[1;92mYour network: ' + network
 
-    time.sleep(2)
+    time.sleep(1)
 
     print ' Loading ...'
 
-    time.sleep(2)
+    time.sleep(1)
 
     log_menu()
 
