@@ -614,7 +614,7 @@ def a_s():
                 cp.close()
                 cps.append(uid + pass1)
             else:
-                pass2 = name.lower() + '112
+                pass2 = name.lower() + '112' 
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
