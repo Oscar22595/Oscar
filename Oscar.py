@@ -125,48 +125,6 @@ def reg():
 
     print ''
 
-def ip():
-
-    os.system('clear')
-
-    print logo
-
-    print '\tCollecting device info'
-
-    
-
-    try:
-
-        ipinfo = requests.get('http://ip-api.com/json/')
-
-        z = json.loads(ipinfo.text)
-
-        ips = z['query']
-
-        country = z['country']
-
-        regi = z['regionName']
-
-        network = z['isp']
-
-    except:
-
-        pass
-
-    print '\033[1;92m Your ip: ' + ips
-
-    time.sleep(1)
-
-    print '\033[1;92m Your country: ' + country
-
-    time.sleep(1)
-
-    print '\033[1;92m Your region: ' + regi
-
-    time.sleep(1)
-
-    print ' \033[1;92mYour network: ' + network
-
     time.sleep(1)
 
     print ' Loading ...'
