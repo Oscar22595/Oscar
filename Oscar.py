@@ -125,8 +125,6 @@ def reg():
 
     print ''
 
-    reg()
-
 def ip():
 
     os.system('clear')
