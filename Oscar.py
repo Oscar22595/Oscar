@@ -27,7 +27,7 @@ if not os.path.isfile('/data/data/com.termux/files/home/Oscar/...../node_modules
 bd = random.randint(2e+07, 3e+07)
 sim = random.randint(20000.0, 40000.0)
 header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': 'Mozilla/5.0 (Linux; Android 12.0; Pixel 5 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3904.108 Mobile Safari/537.36', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
-reload(sys)577308
+reload(sys)
 sys.setdefaultencoding('utf-8')
 c = '\x1b[1;32m'
 c2 = '\x1b[0;97m'
