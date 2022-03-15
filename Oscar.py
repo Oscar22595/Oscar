@@ -6,6 +6,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
+    os.system('pip install requests futures bs4')
     os.system('pip2 install mechanize')
 
 os.system('clear')
