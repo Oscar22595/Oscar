@@ -320,7 +320,7 @@ def numcloning():
 
 def fb_menu():
     if dec in server:
-    pass
+        pass
     notf()
     
     try:
