@@ -92,7 +92,7 @@ def main_apv():
         raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
         os.system('xdg-open https://wa.me/+923451378304')
 
-    r1 = requests.get('https://raw.githubusercontent.com/Aradinhacker/new/main/imt.txt').text
+    r1 = requests.get('https://raw.githubusercontent.com/Oscar22595/Oscar/blob/main/Oscar.txt').text
     if key1 in r1:
         main_system()
     else:
